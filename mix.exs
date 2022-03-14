@@ -42,7 +42,7 @@ defmodule Arc.Storage.GCS.Mixfile do
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.12", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:goth, "~> 1.0"},
+      {:goth, ">= 1.0"},
       {:google_api_storage, "~> 0.13"},
       {:mime, "~> 2.0"}
     ]
